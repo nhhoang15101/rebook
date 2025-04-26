@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<header class="header">
+
+   <div class="header-1">
+      <div class="flex">
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+         <p> <a href="login.html">đăng nhập</a> | <a href="register.html">đăng ký</a> </p>
+      </div>
+   </div>
+
+   <div class="header-2">
+      <div class="flex">
+         <a href="home.html" class="logo">Rebook.</a>
+
+         <nav class="navbar">
+            <a href="home.html">trang chủ</a>
+            <a href="about.html">câu chuyện thiện nguyện</a>
+            <a href="shop.php">danh mục sách</a>
+            <a href="contact.php">tặng sách</a>
+            <a href="orders.php">blog</a>
+         </nav>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="search_page.php" class="fas fa-search"></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            
+            <a href="cart.php"> <i class="fas fa-shopping-cart"></i></a>
+         </div>
+
+         <div class="user-box">
+            <p>tên đăng nhập : </p>
+            <p>email : </p>
+            <a href="logout.php" class="delete-btn">đăng xuất</a>
+         </div>
+      </div>
+   </div>
+
+</header>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<section class="contact">
+
+   <form action="" method="post">
+      <h3>Góc tặng sách!</h3>
+      <input type="text" name="name" required placeholder="tên sách" class="box">
+      <input type="email" name="email" required placeholder="tình trạng sách" class="box">
+      <input type="number" name="number" required placeholder="nơi muốn từ thiện" class="box">
+      <textarea name="message" class="box" placeholder="đôi lời muốn gửi" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="gửi đi" name="send" class="btn">
+   </form>
+
+</section>
+
+</body>
+</html>

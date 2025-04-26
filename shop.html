@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<header class="header">
+
+   <div class="header-1">
+      <div class="flex">
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+         <p> <a href="login.html">đăng nhập</a> | <a href="register.html">đăng ký</a> </p>
+      </div>
+   </div>
+
+   <div class="header-2">
+      <div class="flex">
+         <a href="home.html" class="logo">Rebook.</a>
+
+         <nav class="navbar">
+            <a href="home.html">trang chủ</a>
+            <a href="about.html">câu chuyện thiện nguyện</a>
+            <a href="shop.php">danh mục sách</a>
+            <a href="contact.html">tặng sách</a>
+            <a href="orders.php">blog</a>
+         </nav>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="search_page.php" class="fas fa-search"></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            
+            <a href="cart.php"> <i class="fas fa-shopping-cart"></i></a>
+         </div>
+
+         <div class="user-box">
+            <p>tên đăng nhập : </p>
+            <p>email : </p>
+            <a href="logout.php" class="delete-btn">đăng xuất</a>
+         </div>
+      </div>
+   </div>
+
+</header>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/shop_style.css">
+
+</head>
+
+  <main>
+    <section class="sach-ban">
+      <h2>Sách bán</h2>
+      <p>Mua sách cũ với giá hợp lý</p>
+      <select>
+        <option>Thể loại</option>
+      </select>
+      <input type="text" placeholder="Tìm kiếm sách cần mua">
+
+      <div class="book">
+        <img src="https://via.placeholder.com/100x150" alt="Chúa tể của những chiếc nhẫn">
+        <div class="book-info">
+          <h3>Chúa tể của những chiếc nhẫn</h3>
+          <p>Đã qua sử dụng</p>
+          <p>50.000 VNĐ | Nguyễn Văn A</p>
+          <button>Mua ngay</button>
+          <button class="link-button">Liên hệ người bán</button>
+        </div>
+      </div>
+
+      <div class="book">
+        <img src="https://via.placeholder.com/100x150" alt="Đắc Nhân Tâm">
+        <div class="book-info">
+          <h3>Đắc Nhân Tâm</h3>
+          <p>Mới</p>
+          <p>60.000 VNĐ | Nguyễn Văn A</p>
+          <button>Mua ngay</button>
+          <button class="link-button">Liên hệ người bán</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sach-thien-nguyen">
+      <h2>Sách thiện nguyện</h2>
+      <p>Tặng & nhận sách miễn phí</p>
+      <button class="yellow-button">Tặng sách cho trẻ em vùng cao</button>
+
+      <div class="city-buttons">
+        <button>Thư viện Đà Nẵng</button>
+        <button>TP Hồ Chí Minh</button>
+      </div>
+
+      <div class="location-buttons">
+        <button>Thư viện</button>
+        <button>TP HCM</button>
+        <button>Hà Nội</button>
+      </div>
+
+      <div class="donation-books">
+        <img src="https://via.placeholder.com/80x100" alt="Hẻm nhỏ phiêu lưu ký">
+        <img src="https://via.placeholder.com/80x100" alt="Tôi đi học">
+        <img src="https://via.placeholder.com/80x100" alt="Cho tôi xin một vé đi tuổi thơ">
+      </div>
+
+      <div class="donation-buttons">
+        <button>Đăng ký nhận sách</button>
+        <button>Gửi yêu cầu nhận sách</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
